@@ -13,6 +13,10 @@ main {
 }
 article {
   display: flex; 
+  border: 1px solid #183C63;
+    margin: 16px;
+    gap: 16px;
+    padding: 16px;
 }
 img {
    width: 80px;
@@ -29,4 +33,8 @@ div p {
 
 body {
     max-width: 100vw;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
 }
