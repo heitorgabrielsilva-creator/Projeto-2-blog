@@ -1,6 +1,6 @@
 header {
-   background-color: #183C63;
-   color: #FFFFFF;
+   background-color: var(--cor-primaria);
+   color: var(--cor-contraste);
    text-align: center;
    
    margin: 0 auto;
@@ -8,8 +8,8 @@ header {
 }
 
 main {
-   background-color: #FFFFFF;
-   color: #183C63;
+   background-color: var(--cor-fundo);
+   color: var(--cor-texto);
     display: flex;
     flex-wrap: wrap;
 }
@@ -38,6 +38,20 @@ div p {
 
 .artigo-autor {
    font-weight: bold;
+}
+
+:root{
+   --cor-primaria: #183C63;
+    --cor-secundaria: #3782d2;
+    --cor-fundo: #ffffff;
+    --cor-texto: #151428;
+    --cor-contraste: #f3eef7;
+    --cor-botao: #f9f9f9;
+    .tema-escuro {
+    --cor-primaria: #c9e3ff; 
+    --cor-fundo: #151428;   
+    --cor-texto: #ffffff;
+   }
 }
 
 body {
