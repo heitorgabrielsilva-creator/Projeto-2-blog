@@ -17,8 +17,8 @@
 
       }
    })
- btn.TemaEscuro.addEventListener("click", mudaTema);
- function mudaTema() {
+    btnTemaEscuro.addEventListener("click", mudaTema);
+    function mudaTema() {
     const corpoPagina = document.body;
 
     if (corpoPagina.classList.contains("tema-escuro")) {
