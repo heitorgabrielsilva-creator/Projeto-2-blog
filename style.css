@@ -51,7 +51,7 @@ div p {
     .tema-escuro {
     --cor-primaria: #c9e3ff; 
     --cor-fundo: #151428;   
-    --cor-texto: #ffffff;
+    --cor-texto: #000000;
     }
 }
 

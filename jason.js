@@ -17,7 +17,7 @@
 
       }
    })
- btnTemaEscuro.addEventListener("click", mudaTema);
+ btn.TemaEscuro.addEventListener("click", mudaTema);
  function mudaTema() {
     const corpoPagina = document.body;
 
